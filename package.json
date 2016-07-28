@@ -1,0 +1,16 @@
+{
+  "name": "mpt-issue-44",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:mocha": "mocha test/unit/",
+    "test:mpt": "mocha-parallel-tests test/unit/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.5.3",
+    "mocha-parallel-tests": "^0.5.3"
+  }
+}
