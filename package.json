@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:mocha": "mocha test/unit/",
-    "test:mpt": "./node_modules/.bin/mocha-parallel-tests test/unit/"
+    "test:mpt": "mocha-parallel-tests test/unit/"
   },
   "author": "",
   "license": "ISC",
