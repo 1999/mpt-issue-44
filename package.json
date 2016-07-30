@@ -5,12 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test:mocha": "mocha test/unit/",
-    "test:mpt": "mocha-parallel-tests test/unit/"
+    "test:mpt": "./node_modules/.bin/mocha-parallel-tests test/unit/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mocha": "^2.5.3",
     "mocha-parallel-tests": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "code": "^3.0.2",
+    "i": "^0.3.5",
+    "mocha-clean": "^1.0.0",
+    "npm": "^3.10.5"
   }
 }
